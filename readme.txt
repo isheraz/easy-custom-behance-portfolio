@@ -10,7 +10,8 @@ A Simple Plugin to display your portfolio on your website or blog
 
 == Description ==
 
-A  Simple Plugin to display your portfolio on your website or blog. The Plugin uses Behance API
+A  Simple Plugin to display your portfolio on your website or blog. The Plugin uses Behance API for fetching the projects
+and displays them using [behanceportfolio]
 
 Major features include:
 
