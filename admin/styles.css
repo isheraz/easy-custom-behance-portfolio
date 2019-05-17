@@ -1,0 +1,12 @@
+
+
+#wpwrap{
+      background: #f1f1f1;
+}
+
+.bp-content-area {
+      display: block;
+      width: 96%;
+      background: #ffffff;
+      padding: 2%;
+}
