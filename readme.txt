@@ -30,6 +30,13 @@ And You're done! Good to go
 
 == Changelog ==
 
+
+= 0.4.3 =
+* Release Date - 18 May, 2019*
+* Removed jQuery Completely
+* Deleting unnecessary code
+* Adding Privacy Policy
+
 = 0.4.2 =
 * Release Date - 18 May, 2019*
 * External jQuery Removed and using Core jQuery

@@ -86,7 +86,7 @@ class BehanceShortcode
         wp_enqueue_style('bootstrap-css');
         wp_enqueue_style('bp_styles');
 
-        wp_register_script('bp_scripts', BEHANCE_PORTFOLIO_PLUGIN_URL . 'public/scripts.js', array('jquery'),
+        wp_register_script('bp_scripts', BEHANCE_PORTFOLIO_PLUGIN_URL . 'public/scripts.js', null,
             BEHANCE_PORTFOLIO_VERSION, true);
         wp_enqueue_script('bootstrap-js');
         wp_enqueue_script('bp_scripts');

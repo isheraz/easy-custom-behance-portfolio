@@ -24,16 +24,6 @@ define('BEHANCE_PORTFOLIO_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('BEHANCE_PORTFOLIO_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('BEHANCE_PORTFOLIO_DELETE_LIMIT', 100000);
 
-add_action('wp_enqueue_scripts', 'ecpt_replace_core_jquery_version');
-function ecpt_replace_core_jquery_version()
-{
-    if (is_admin()) return;
-   /* wp_deregister_script('jquery-core');
-    wp_deregister_script('jquery-migrate');
-    wp_register_script('jquery-core', BEHANCE_PORTFOLIO_PLUGIN_URL . "public/jquery-3.1.1.min.js", array(), '3.1.1');
-    wp_register_script('jquery-migrate', BEHANCE_PORTFOLIO_PLUGIN_URL . "public/jquery-migrate-3.0.0.min.js", array(), '3.0.0');*/
-}
-
 register_activation_hook(__FILE__, array('BehancePortfolio', 'ecpt_activate_plugin'));
 register_deactivation_hook(__FILE__, array('BehancePortfolio', 'ecpt_deactivate_plugin'));
 

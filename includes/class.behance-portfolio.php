@@ -25,9 +25,7 @@ class BehancePortfolio
         wp_register_style('fontawesome', BEHANCE_PORTFOLIO_PLUGIN_URL . 'public/fontawesome5.8.1.css');
         wp_register_style('bootstrap-css', BEHANCE_PORTFOLIO_PLUGIN_URL.'public/bootstrap.min.css');
         wp_register_script('bootstrap-js', BEHANCE_PORTFOLIO_PLUGIN_URL.'public/bootstrap.min
-		.js', array(
-            'jquery'
-        ),BEHANCE_PORTFOLIO_VERSION,true);
+		.js', array(''),BEHANCE_PORTFOLIO_VERSION,true);
         if (is_admin()) {
             add_action('admin_menu', array ('BehancePortfolio', 'ecpt_behance_portfolio_options_page'));
 
