@@ -13,6 +13,8 @@ A Simple Plugin to display your portfolio on your website or blog
 A  Simple Plugin to display your portfolio on your website or blog. The Plugin uses Behance API for fetching the projects
 and displays them using [behanceportfolio]
 
+Privacy Policy => https://isheraz.github.io/easy-custom-behance-portfolio/privacy-policy.html
+
 Major features include:
 
 * No API key required
